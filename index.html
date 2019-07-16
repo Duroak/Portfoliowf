@@ -3,21 +3,43 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation" class="navbar">
-        <div class="hamburger">&#9776;</div>
-        <ul class="menu">
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Linkdin</a></li>
-            <li><a href="#">GitHub</a></li>
-        </ul>
-    </nav>
+    <header>    
+        <nav role="navigation" class="navbar">
+            <div class="title">Duro Akintunde</div>
+            <div class="hamburger">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <main role="main">
+        <section id="homeView">
+            <p class="bigWelcome">welcome</p>
+            <p id="welcomeMsg">a welcoming in message to the page <br/> the hero img will be the backgrond of page</p>
+        </section>
+
+        <section id="bioView">
+            <p class="bigTitle" id="biography">About Me</p>
+            <img src="" alt="picture of self" id="myPicture">
+            <p id="biographyText"> Text about my biography</p>
+        </section>
+
+        <section id="projectView">
+            <p class="bigTitle" id="projects">Projects</p>
+            <img src="" alt="picture of project" id="quizapp">
+            <p id="quizappText"> Discription of quizapp</p>
+        </section>
+    </main>
       
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info"></footer>
 </body>
 </html>
