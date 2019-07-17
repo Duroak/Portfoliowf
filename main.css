@@ -105,6 +105,17 @@ body {
     margin-top: 5vh;
 }
 
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 6vh;
+    margin-top: 20%;
+}
+
 @media screen and (max-width: 1200px) {
     .menu {
         width: 50%;
